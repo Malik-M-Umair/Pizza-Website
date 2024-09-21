@@ -72,7 +72,11 @@ body{
     justify-content: center;
     align-items: center;
     /* border: 5px solid red; */
+    transition: 1.2s;
 
+}
+.gallery:hover{
+    transform: scale(1.1);
 }
 .gallery .description{
     background-color: red;
