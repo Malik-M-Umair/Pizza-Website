@@ -97,4 +97,22 @@ body{
 .controller{
     position: relative;
     bottom: 300px;
+  
 }
+/* .color-container{
+    /* border:5px solid red; */
+    display: flex;
+    justify-content: end;
+   
+}
+#press{
+    background-color: black;
+    border: 5px solid red;
+    border-style:double;
+    color: white;
+    font-size: 25px;
+    border-radius: 20px;
+    margin-right: 20px;
+    
+
+} */
