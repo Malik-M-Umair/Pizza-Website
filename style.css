@@ -99,7 +99,7 @@ body{
     bottom: 300px;
   
 }
-/* .color-container{
+.color-container{
     /* border:5px solid red; */
     display: flex;
     justify-content: end;
@@ -113,6 +113,6 @@ body{
     font-size: 25px;
     border-radius: 20px;
     margin-right: 20px;
-    
+    overflow: hidden;
 
-} */
+}
