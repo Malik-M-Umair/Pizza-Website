@@ -4,7 +4,7 @@ let index=0;
       sidebar.style.display='flex'
 
     }
-    function hideSidbar(){
+    function hideSidebar(){
       const sidebar=document.querySelector('.sidebar')
       sidebar.style.display='none';
 
