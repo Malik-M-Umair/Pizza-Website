@@ -112,6 +112,7 @@ body{
 .controller{
     position: relative;
     bottom: 300px;
+    /* border: 5px solid red; */
   
 }
 .color-container{
@@ -134,4 +135,38 @@ body{
     overflow: hidden;
     cursor: pointer;
 
+}
+
+.footer{
+    
+    /* border: 5px solid red; */
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    gap: 30px;
+    background-color: grey;
+}
+
+i{
+    /* border: 5px solid red; */
+    height: 200px;
+    color: blue;
+    font-size: 40px
+}
+i:hover{
+    color: rgba(0, 0, 255, 0.459);
+}
+i:active{
+    color:red;
+}
+.foot{
+    /* border: 5px solid red; */
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    background-color: grey;
+}
+.footer,.foot:hover{
+    background-color: rgba(128, 128, 128, 0.253);
 }
