@@ -12,6 +12,20 @@ body{
     font-family:serif;
     font-size: 2rem;
 }
+.he{
+    color: red;
+    font-style: italic;
+    font-weight: bolder;
+    font-family:serif;
+    font-size: 3rem;
+    /* border-bottom: 5px solid red; */
+    position: relative;
+    bottom: 400px;
+    display: flex;
+    justify-content: center;
+    
+
+}
 .container{
     position: relative;
     
@@ -85,6 +99,7 @@ body{
     padding-left:72px;
     align-items: center;
     border-radius: 20px;
+    cursor: pointer;
     
 }
 
@@ -106,13 +121,17 @@ body{
    
 }
 #press{
-    background-color: black;
-    border: 5px solid red;
-    border-style:double;
+    
+    border: none;
+    border-style:none;
     color: white;
-    font-size: 25px;
-    border-radius: 20px;
+    
+    border-radius: 100px;
+    width: 40px ;
+    height: 40px;
+    background-image: conic-gradient(red, yellow, green, blue, black);
     margin-right: 20px;
     overflow: hidden;
+    cursor: pointer;
 
 }

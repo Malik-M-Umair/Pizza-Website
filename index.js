@@ -1,6 +1,6 @@
 let index = 0;
 let classname = document.querySelectorAll('.description'); 
-let value=document.querySelectorAll('description').innerHTML;
+let value=document.querySelectorAll('.description').innerHTML;
 
 
 function showSidebar() {
@@ -14,7 +14,7 @@ function hideSidebar() {
 }
 
 function changecolor() {
-  let colors = ["cyan", "lightblue", "lightgreen", "grey", "purple"];
+  let colors = ["rgba(255, 166, 0, 0.527)", "lightblue", "lightgreen", "grey", "purple"];
   document.body.style.background = colors[index++];
   if (index > colors.length - 1) {
     index = 0;
